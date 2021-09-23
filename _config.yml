@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
+title: AutoBoard
+subtitle: 'Automatic Chess Board'
+description: 'The AutoBoard - Revolutionizing Modern Chess'
+keywords: chess, board, automatic, auto, move, magnet, online, game
+author: Ethan Girouard and Garrett Dion
 language: en
-timezone: ''
+timezone: 'America/New_York'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
