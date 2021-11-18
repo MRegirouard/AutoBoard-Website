@@ -1,11 +1,11 @@
 ---
-title: Board Selection
+title: Control Board Selection
 date: 2021-11-18 09:29:24
 tags:
-- Microcontroller
+- Controller
 - Research
 ---
-# Board Selection
+# Control Board Selection
 To control motors and read sensors, we needed a microcontroller or single-board computer in the AutoBoard. Our initial requirements were that the board had to have some amount of input/output pins, and it had to have WiFi. We had many options available, so we decided to stick with something we've already worked with before. We immediately narrowed down our search to three options: an Arduino, a Raspberry Pi, or a TI Connected Launchpad.
 
 ## Arduino
