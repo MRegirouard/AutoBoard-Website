@@ -1,0 +1,27 @@
+name: Test Generate
+
+on:
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  test-gen:
+    runs-on: ubuntu-latest
+    name: Hexo Static File Generation Test
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+      with:
+        submodules: true
+        
+    - name: Setup Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.22.8'
+        
+    - name: NPM Install
+      run: npm install
+      
+    - name: Generate
+      run: ./node_modules/.bin/hexo generate
